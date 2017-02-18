@@ -17,7 +17,7 @@ body {
     width: 876px;
     height: 627px;
     background: url("../assets/bg.png");
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .ba-background-t {
     width: 876px;
@@ -152,6 +152,9 @@ body {
     left: 20px;
     z-index: 9;
 }
+.ba-content:hover {
+    transform: scale(1.01);
+}
 .ba-btn-add {
     width: 21px;
     height: 21px;
@@ -194,5 +197,100 @@ body {
 .ba-close {
     width: 15px;
     height: 15px;
-    background-color: #d7d7d7;
+    background: url("../assets/btn_close.png") no-repeat;
+    border: none;
+    margin-top: 9px;
+    margin-left: 222px;
 }
+.ba-right-container {
+    width: 200px;
+    height: 350px;
+    margin-left: 30px;
+}
+.ba-banner-new {
+    width: 42px;
+    height: 24px;
+}
+.ba-title {
+    width: 100%;
+    height: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+.ba-title__blue {
+    color: #5e4fff;
+}
+.ba-rate {
+    height: 10px;
+    margin-bottom: 18px;
+}
+.ba-price {
+    width: 55px;
+    height: 22px;
+    color: #000000;
+    font-family:'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 26px;
+}
+.ba-size {
+    width: 23px;
+    height: 12px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.ba-size-amount {
+    width: 185px;
+    height: 11px;
+    margin-bottom: 41px;
+}
+.ba-size-amount-container {
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+.ba-size-amount__item {
+    display: inline-block;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-right: 23px;
+}
+.ba-size-amount__item:last-child {
+    margin-right: 0;
+}
+.ba-size-amount__item:hover {
+    width: 20px;
+    border: 1px solid #0f0f0f;
+}
+.ba-btns {
+
+}
+.ba-btns__content {
+    width: 118px;
+    height: 30px;
+    border: 1px solid #0f0f0f;
+    background-color: #ffffff;
+    margin-bottom: 4px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.ba-btns__title {
+    width: 60px;
+    height: 12px;
+}
+.ba-btns__content:hover {
+    border: none;
+    background-color: #a200b8;
+    color: #ffffff;
+}
+
